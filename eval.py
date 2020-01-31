@@ -8,7 +8,7 @@ from .utils.functions import SavePath
 from .layers.output_utils import postprocess, undo_image_transformation
 import pycocotools
 
-from data import cfg, set_cfg, set_dataset
+from .data import cfg, set_cfg, set_dataset
 
 import numpy as np
 import torch
